@@ -1,38 +1,50 @@
-.App {
+main {
   text-align: center;
+  vertical-align: center;
+  line-height: 100vh
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sapper{
+  width: 100%;
+  padding-top: 150px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sapper__game{
+  margin: 0 auto;
+  padding: 25px 20px 15px 20px;
+  width: 380px;
+  background-color: #d2d2d2;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  -webkit-box-shadow: 12px 12px 8px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 12px 12px 8px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 12px 12px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.sapper__header{
+  margin-bottom: 25px;
+}
+.ico{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+}
+.ico img{
+  width: 100%;
+  height: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.header{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.time__ico{
+  height: 50px;
+}
+.header__ico img{
+  width: 50px;
 }
